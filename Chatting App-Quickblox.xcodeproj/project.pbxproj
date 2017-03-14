@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BA162ABFAE29ACFCDA46DBF /* libPods-Chatting App-QuickbloxUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E64FB7648A6581B655EF800 /* libPods-Chatting App-QuickbloxUITests.a */; };
 		3B3107DC1E7771F60059B8EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3107DB1E7771F60059B8EB /* main.m */; };
 		3B3107DF1E7771F60059B8EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3107DE1E7771F60059B8EB /* AppDelegate.m */; };
 		3B3107E21E7771F60059B8EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3107E11E7771F60059B8EB /* ViewController.m */; };
@@ -15,6 +16,9 @@
 		3B3107EA1E7771F60059B8EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3107E81E7771F60059B8EB /* LaunchScreen.storyboard */; };
 		3B3107F51E7771F60059B8EB /* Chatting_App_QuickbloxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3107F41E7771F60059B8EB /* Chatting_App_QuickbloxTests.m */; };
 		3B3108001E7771F60059B8EB /* Chatting_App_QuickbloxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3107FF1E7771F60059B8EB /* Chatting_App_QuickbloxUITests.m */; };
+		3B852F071E777FA100D2CFE0 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B852F061E777FA100D2CFE0 /* SignUpViewController.m */; };
+		557662BE67878983AFB681AF /* libPods-Chatting App-QuickbloxTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D90D9D3C26F967DBCA49C83 /* libPods-Chatting App-QuickbloxTests.a */; };
+		C5369D9CF7E8B003F7CFFE70 /* libPods-Chatting App-Quickblox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D19E08533B62D03061A19C /* libPods-Chatting App-Quickblox.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08FE00FD2F5E1C1E8BB381F4 /* Pods-Chatting App-QuickbloxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatting App-QuickbloxTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chatting App-QuickbloxTests/Pods-Chatting App-QuickbloxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		24BC4366ACEFC467814C9E51 /* Pods-Chatting App-QuickbloxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatting App-QuickbloxUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chatting App-QuickbloxUITests/Pods-Chatting App-QuickbloxUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3B3107D71E7771F60059B8EB /* Chatting App-Quickblox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chatting App-Quickblox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B3107DB1E7771F60059B8EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3B3107DD1E7771F60059B8EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +57,15 @@
 		3B3107FB1E7771F60059B8EB /* Chatting App-QuickbloxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chatting App-QuickbloxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B3107FF1E7771F60059B8EB /* Chatting_App_QuickbloxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chatting_App_QuickbloxUITests.m; sourceTree = "<group>"; };
 		3B3108011E7771F60059B8EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B852F051E777FA100D2CFE0 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		3B852F061E777FA100D2CFE0 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		461E11342DE18A5BE004497B /* Pods-Chatting App-QuickbloxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatting App-QuickbloxTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chatting App-QuickbloxTests/Pods-Chatting App-QuickbloxTests.release.xcconfig"; sourceTree = "<group>"; };
+		4D90D9D3C26F967DBCA49C83 /* libPods-Chatting App-QuickbloxTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Chatting App-QuickbloxTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6422AB89F7A400F71EEECF56 /* Pods-Chatting App-QuickbloxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatting App-QuickbloxUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chatting App-QuickbloxUITests/Pods-Chatting App-QuickbloxUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		70D19E08533B62D03061A19C /* libPods-Chatting App-Quickblox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Chatting App-Quickblox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E64FB7648A6581B655EF800 /* libPods-Chatting App-QuickbloxUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Chatting App-QuickbloxUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D703C7CD877AFFDF95A926F0 /* Pods-Chatting App-Quickblox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatting App-Quickblox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chatting App-Quickblox/Pods-Chatting App-Quickblox.debug.xcconfig"; sourceTree = "<group>"; };
+		F205BF4BB6934D76E34278AC /* Pods-Chatting App-Quickblox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatting App-Quickblox.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chatting App-Quickblox/Pods-Chatting App-Quickblox.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5369D9CF7E8B003F7CFFE70 /* libPods-Chatting App-Quickblox.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				557662BE67878983AFB681AF /* libPods-Chatting App-QuickbloxTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BA162ABFAE29ACFCDA46DBF /* libPods-Chatting App-QuickbloxUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +103,8 @@
 				3B3107F31E7771F60059B8EB /* Chatting App-QuickbloxTests */,
 				3B3107FE1E7771F60059B8EB /* Chatting App-QuickbloxUITests */,
 				3B3107D81E7771F60059B8EB /* Products */,
+				ABB9D5D92B7108E8E43780A3 /* Pods */,
+				8A0911B85F2CED088DC98662 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +130,8 @@
 				3B3107E81E7771F60059B8EB /* LaunchScreen.storyboard */,
 				3B3107EB1E7771F60059B8EB /* Info.plist */,
 				3B3107DA1E7771F60059B8EB /* Supporting Files */,
+				3B852F051E777FA100D2CFE0 /* SignUpViewController.h */,
+				3B852F061E777FA100D2CFE0 /* SignUpViewController.m */,
 			);
 			path = "Chatting App-Quickblox";
 			sourceTree = "<group>";
@@ -140,6 +162,29 @@
 			path = "Chatting App-QuickbloxUITests";
 			sourceTree = "<group>";
 		};
+		8A0911B85F2CED088DC98662 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70D19E08533B62D03061A19C /* libPods-Chatting App-Quickblox.a */,
+				4D90D9D3C26F967DBCA49C83 /* libPods-Chatting App-QuickbloxTests.a */,
+				8E64FB7648A6581B655EF800 /* libPods-Chatting App-QuickbloxUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABB9D5D92B7108E8E43780A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D703C7CD877AFFDF95A926F0 /* Pods-Chatting App-Quickblox.debug.xcconfig */,
+				F205BF4BB6934D76E34278AC /* Pods-Chatting App-Quickblox.release.xcconfig */,
+				08FE00FD2F5E1C1E8BB381F4 /* Pods-Chatting App-QuickbloxTests.debug.xcconfig */,
+				461E11342DE18A5BE004497B /* Pods-Chatting App-QuickbloxTests.release.xcconfig */,
+				6422AB89F7A400F71EEECF56 /* Pods-Chatting App-QuickbloxUITests.debug.xcconfig */,
+				24BC4366ACEFC467814C9E51 /* Pods-Chatting App-QuickbloxUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B3108041E7771F60059B8EB /* Build configuration list for PBXNativeTarget "Chatting App-Quickblox" */;
 			buildPhases = (
+				323670F37858D38CB2268A67 /* [CP] Check Pods Manifest.lock */,
 				3B3107D31E7771F50059B8EB /* Sources */,
 				3B3107D41E7771F50059B8EB /* Frameworks */,
 				3B3107D51E7771F50059B8EB /* Resources */,
+				C572EC4DF3B799A2F3B4C7AB /* [CP] Embed Pods Frameworks */,
+				A862204782281FF8094DFA39 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B3108071E7771F60059B8EB /* Build configuration list for PBXNativeTarget "Chatting App-QuickbloxTests" */;
 			buildPhases = (
+				D4B1C755E2FFBA2126DD7A5B /* [CP] Check Pods Manifest.lock */,
 				3B3107EC1E7771F60059B8EB /* Sources */,
 				3B3107ED1E7771F60059B8EB /* Frameworks */,
 				3B3107EE1E7771F60059B8EB /* Resources */,
+				EF6C0332C431868E44AC7E55 /* [CP] Embed Pods Frameworks */,
+				186DEA0AFD7FCCAB467C8846 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B31080A1E7771F60059B8EB /* Build configuration list for PBXNativeTarget "Chatting App-QuickbloxUITests" */;
 			buildPhases = (
+				98A076C89BF3C6428EEE8785 /* [CP] Check Pods Manifest.lock */,
 				3B3107F71E7771F60059B8EB /* Sources */,
 				3B3107F81E7771F60059B8EB /* Frameworks */,
 				3B3107F91E7771F60059B8EB /* Resources */,
+				39F15920937EBDC26E816498 /* [CP] Embed Pods Frameworks */,
+				AF3D3F849FA0F11C89056472 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,6 +325,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		186DEA0AFD7FCCAB467C8846 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chatting App-QuickbloxTests/Pods-Chatting App-QuickbloxTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		323670F37858D38CB2268A67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		39F15920937EBDC26E816498 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chatting App-QuickbloxUITests/Pods-Chatting App-QuickbloxUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98A076C89BF3C6428EEE8785 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A862204782281FF8094DFA39 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chatting App-Quickblox/Pods-Chatting App-Quickblox-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF3D3F849FA0F11C89056472 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chatting App-QuickbloxUITests/Pods-Chatting App-QuickbloxUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C572EC4DF3B799A2F3B4C7AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chatting App-Quickblox/Pods-Chatting App-Quickblox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4B1C755E2FFBA2126DD7A5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EF6C0332C431868E44AC7E55 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chatting App-QuickbloxTests/Pods-Chatting App-QuickbloxTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3B3107D31E7771F50059B8EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -278,6 +470,7 @@
 			files = (
 				3B3107E21E7771F60059B8EB /* ViewController.m in Sources */,
 				3B3107DF1E7771F60059B8EB /* AppDelegate.m in Sources */,
+				3B852F071E777FA100D2CFE0 /* SignUpViewController.m in Sources */,
 				3B3107DC1E7771F60059B8EB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,6 +616,7 @@
 		};
 		3B3108051E7771F60059B8EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D703C7CD877AFFDF95A926F0 /* Pods-Chatting App-Quickblox.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3C4BBSPB8J;
@@ -436,6 +630,7 @@
 		};
 		3B3108061E7771F60059B8EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F205BF4BB6934D76E34278AC /* Pods-Chatting App-Quickblox.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3C4BBSPB8J;
@@ -449,6 +644,7 @@
 		};
 		3B3108081E7771F60059B8EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08FE00FD2F5E1C1E8BB381F4 /* Pods-Chatting App-QuickbloxTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 3C4BBSPB8J;
@@ -462,6 +658,7 @@
 		};
 		3B3108091E7771F60059B8EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 461E11342DE18A5BE004497B /* Pods-Chatting App-QuickbloxTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 3C4BBSPB8J;
@@ -475,6 +672,7 @@
 		};
 		3B31080B1E7771F60059B8EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6422AB89F7A400F71EEECF56 /* Pods-Chatting App-QuickbloxUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 3C4BBSPB8J;
 				INFOPLIST_FILE = "Chatting App-QuickbloxUITests/Info.plist";
@@ -487,6 +685,7 @@
 		};
 		3B31080C1E7771F60059B8EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24BC4366ACEFC467814C9E51 /* Pods-Chatting App-QuickbloxUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 3C4BBSPB8J;
 				INFOPLIST_FILE = "Chatting App-QuickbloxUITests/Info.plist";
@@ -516,6 +715,7 @@
 				3B3108061E7771F60059B8EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B3108071E7771F60059B8EB /* Build configuration list for PBXNativeTarget "Chatting App-QuickbloxTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +724,7 @@
 				3B3108091E7771F60059B8EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B31080A1E7771F60059B8EB /* Build configuration list for PBXNativeTarget "Chatting App-QuickbloxUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +733,7 @@
 				3B31080C1E7771F60059B8EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

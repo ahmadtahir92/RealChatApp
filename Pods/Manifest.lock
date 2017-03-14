@@ -1,0 +1,18 @@
+PODS:
+  - IQKeyboardManager (4.0.8)
+  - JVFloatLabeledTextField (1.1.1)
+  - QBFlatButton (1.1)
+
+DEPENDENCIES:
+  - IQKeyboardManager
+  - JVFloatLabeledTextField
+  - QBFlatButton
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: 1a8189fa153bf09044355ee0ad36826f6767e7f7
+  JVFloatLabeledTextField: 0e5524b097f102036214dd8279edc8ecf08b5e18
+  QBFlatButton: 3cf272985cdbdd04d6bc8b7ae01e4dd62cb09c17
+
+PODFILE CHECKSUM: 8d382d383a63f2d927128373993b07f63cf0306a
+
+COCOAPODS: 1.2.0
